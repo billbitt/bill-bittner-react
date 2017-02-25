@@ -6,9 +6,13 @@ import Connect from '../components/Connect';
 class Home extends Component {
 	render() {
 		return (
-			<div>
-				<AboutMe />
-				<Connect />
+			<div className="row">
+				<div className="col-md-3"></div>
+				<div className="col-md-6">
+					<AboutMe />
+					<Connect />
+				</div>
+				<div className="col-md-3"></div>
 			</div>
 		);
 	}

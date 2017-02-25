@@ -1,35 +1,11 @@
 .navbar-custom {
-  background-color: #fff;
+  font-family: bold;
+  background-color: none;
+  padding: 10px 20px 10px 10px;
 }
 
 .Header-logo {
-  animation: Header-logo-spin infinite 20s linear;
-  height: 60px;
-}
-
-@keyframes Header-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-#logo {
-  /* Positioning */
-  margin-left: 70px;
-
-  /* Box-model */
-  height: 60px;
-  padding-top: 20px;
-  padding-bottom: 5px;
-
-  /* Typography */
-  font-size: 24px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  font-weight: bold;
-  color: #fff;
-
-  /* Visual */
-  background: #4aaaa5;
-
+  height: 50px;
 }
 
 .navbar-right-custom {

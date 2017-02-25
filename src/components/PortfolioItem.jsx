@@ -11,7 +11,6 @@ class PortfolioItem extends Component {
 			<div className="thumbnail">
 				<img className="portfolio-image" src={this.props.imgSource} alt={this.props.title}/>
 				<p className="description details" >{this.props.description}</p>
-				<p><a href="#" className="btn btn-primary" role="button">See More</a></p>
 				<div className="details">
 					<h4>Project Highlights</h4>
 					<ul>

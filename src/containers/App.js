@@ -6,8 +6,7 @@ import Footer from '../components/Footer';
 
 function getNiceName(routes) {
 	let path = (routes[routes.length - 1] || {}).path || 'Home';
-	return path.replace('/', '')
-			.toUpperCase() || 'Unknown Page';
+	return path.replace('/', '').toUpperCase() || 'Unknown Page';
 }
 
 class App extends Component {
@@ -15,11 +14,13 @@ class App extends Component {
 		return (
 			<div className="App" style={{backgroundImage: `url(${bgImage})`}}>
 				<Header />
-				<div className="page-header">
-					<h2>{getNiceName(this.props.routes)}</h2>
-				</div>
-				<div className="container App-content">
-					{this.props.children}
+				<div className="Main">
+					<div className="page-header">
+						<h2>{getNiceName(this.props.routes)}</h2>
+					</div>
+					<div className="container App-content">
+						{this.props.children}
+					</div>
 				</div>
 				<Footer />
 			</div>

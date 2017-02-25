@@ -3,7 +3,7 @@ import './Footer.css';
 
 export default function() {
 	return (
-		<footer className="Footer">
+		<footer>
 			<p className="Footer-copyright">&copy; 2017 Bill Bittner</p>
 		</footer>
 	);

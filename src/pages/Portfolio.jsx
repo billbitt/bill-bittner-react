@@ -13,7 +13,7 @@ const PORTFOLIO_ITEMS = [
 	},
 	{
 		title: "Book Tracker",
-		img: "http://i.imgur.com/iYqNRuN.png",
+		img: "http://i.imgur.com/iYqNRuN.png?3",
 		screenshots: ["http://i.imgur.com/iYqNRuN.png"],
 		description: "This project is an application to help me track the books I want to read.",
 		highlights: ["Wrote the backend of the application using Express.js, MySQL, and MVC structure", "Wrote my own ORM to communicate between my model and databse", "Wrote front end using HTML, Handlebars.js, CSS and JavaScript"],
