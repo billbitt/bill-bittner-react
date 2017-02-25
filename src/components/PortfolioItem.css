@@ -1,0 +1,15 @@
+.details {
+    text-align: left;
+}
+
+.description {
+    font-style: italic;
+}
+
+.portfolio-image {
+    margin: 10px 0px 20px 0px;
+}
+
+.tech-item {
+    display: inline;
+}
