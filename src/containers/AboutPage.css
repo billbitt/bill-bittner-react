@@ -1,24 +1,46 @@
-.about-me {
-    margin: 30px;
-    width: 800px;
+
+.card {
+    background-color: white;
+}
+
+.card h2 {
+    color: darkorange;
+    text-align: right;
+    margin: 0px;
+}
+
+.about-me p, .about-me a {
     text-align: left;
+    color: #999;
+}
+
+.about-me a:hover {
+    color: yellow;
+}
+
+.heading-text {
+    padding: 40px 20px 0px 20px;
+}
+
+.detail-text {
+    padding: 0px 20px 30px 20px;
 }
 
 .connect {
     overflow: auto;
     text-align: right;
-    margin: 30px;
-    width: 800px;
+    margin-top: 30px;
 }
 
 @media (max-width: 1150px) {
 
     .about-me, .connect {
         width: 100%;
-        margin: 30px 0px 30px 0px;
+        margin: 0px 0px 30px 0px;
         padding: 0px;
     }
 
 
 
 }
+

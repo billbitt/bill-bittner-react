@@ -10,11 +10,19 @@
 }
 
 .main {
+  margin: 30px;
+  width: 800px;
+  text-align: left;
   float: left;
 }
 
 h2 {
     color: white;
+    margin-top: 0px;
+}
+
+.navigation {
+  margin-top: 30px;
 }
 
 
@@ -25,15 +33,7 @@ h2 {
       float: none;
       overflow: auto;
       width: 80%;
-      margin: 0px 10% 0px 10%;
-  }
-
-  .side-bar {
-    padding-top: 30px;
-  }
-
-  h2 {
-    margin-top: 0px;
+      margin: 30px 10% 0px 10%;
   }
 
   /*align nav to right of logo */
@@ -55,10 +55,7 @@ h2 {
 
 @media (max-width: 475px) {
 
-    /*stack the logo and nav*/
-    h2 {
-      margin-top: 10px;
-    }
+  /*stack the logo and nav*/
 
 
 }
