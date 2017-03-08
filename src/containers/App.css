@@ -1,28 +1,26 @@
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-
-.App {
+#app {
   text-align: center;
+  height: 100%;
   min-height:100%;
-  position:relative;
+  width: 100%;
 }
 
-.App-content {
-  font-style: bold;
+.side-bar {
+  float: left;
 }
 
-.Main {
-   padding:10px;
-   padding-bottom:200px;   /* Height of the footer */
+.main {
+  float: left;
 }
 
-footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
+
+@media (max-width: 1150px) {
+
+    .side-bar, .main {
+        float: none;
+        width: 80%;
+        margin: 0px 10% 0px 10%;
+    }
+
+
 }

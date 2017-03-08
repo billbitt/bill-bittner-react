@@ -1,0 +1,17 @@
+.logo {
+    margin: 30px;
+    background-image: url("./bill-sunnies.jpg"); 
+    background-size: 110%;
+    background-repeat: none;
+    background-position-x: center;
+    background-position-y: center;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    padding: 10px;
+}
+
+h1 {
+    color: deepskyblue;
+    text-shadow: 2px 2px 0px white;
+}

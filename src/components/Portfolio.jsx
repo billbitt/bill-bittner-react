@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PortfolioItem from '../components/PortfolioItem';
+import "./Portfolio.css";
 
 const PORTFOLIO_ITEMS = [
 	{
