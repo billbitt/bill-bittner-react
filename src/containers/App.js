@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from 'react';
 import './App.css';
 import Logo from "../components/Logo";
+import Navigation from "../components/Navigation";
 
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
 			<div id="app">
 				<div className="side-bar">
 					<Logo />
+					<Navigation />
 				</div>
 				<div className="main">
 					{this.props.children}

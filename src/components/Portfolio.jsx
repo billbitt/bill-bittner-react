@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PortfolioItem from '../components/PortfolioItem';
+import PortfolioItem from './PortfolioItem';
 import "./Portfolio.css";
 
 const PORTFOLIO_ITEMS = [
@@ -26,7 +26,8 @@ const PORTFOLIO_ITEMS = [
 class Portfolio extends Component {
 	render() {
 		return (
-			<div className="row">
+			<div className="portfolio">
+				<h2>Portfolio</h2>
 				{PORTFOLIO_ITEMS.map((item, index) => {
 					return < PortfolioItem key={index} title={item.title} imgSource={item.img} screenshots={item.screenshots} description={item.description} highlights={item.highlights} resources={item.resources} links={item.links} />
 				})}

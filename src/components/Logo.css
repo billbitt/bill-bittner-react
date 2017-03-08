@@ -1,5 +1,4 @@
 .logo {
-    margin: 30px;
     background-image: url("./bill-sunnies.jpg"); 
     background-size: 110%;
     background-repeat: none;
@@ -14,4 +13,14 @@
 h1 {
     color: deepskyblue;
     text-shadow: 2px 2px 0px white;
+}
+
+@media (max-width: 475px) {
+
+    .logo {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
 }

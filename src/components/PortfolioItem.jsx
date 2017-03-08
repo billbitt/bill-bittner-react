@@ -4,11 +4,11 @@ import './PortfolioItem.css';
 class PortfolioItem extends Component {
 	
 	render() {
-		return <div className="col-sm-12 col-md-6">
+		return <div className="card">
 			<div className="caption">
 				<h3>{this.props.title}</h3>	
 			</div>
-			<div className="thumbnail">
+			<div>
 				<img className="portfolio-image" src={this.props.imgSource} alt={this.props.title}/>
 				<p className="description details" >{this.props.description}</p>
 				<div className="details">
