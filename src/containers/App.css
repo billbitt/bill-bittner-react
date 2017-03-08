@@ -10,7 +10,7 @@
 }
 
 .main {
-  margin: 30px;
+  margin: 30px 30px 30px 60px;
   width: 800px;
   text-align: left;
   float: left;
@@ -25,6 +25,50 @@ h2 {
   margin-top: 30px;
 }
 
+/*drop shadows*/
+
+.logo  {
+  box-shadow: 5px 5px 10px orangered;
+}
+
+/*card styles*/
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+    text-align: left;
+    color: #999;
+}
+
+.card a {
+  font-weight: bold;
+  color: deepskyblue;
+}
+
+.card a:hover {
+    color: skyblue;
+}
+
+.card h2 {
+    color: darkorange;
+    text-align: right;
+    text-shadow: none;
+    margin: 0px;
+}
+
+.card h4 {
+    color: darkorange;
+    text-align: left;
+    text-shadow: none;
+    margin: 0px;
+}
+
+
+/*media queries*/
 
 @media (max-width: 1150px) {
 

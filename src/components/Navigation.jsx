@@ -7,7 +7,7 @@ export default function() {
 		<div className="navigation">
             <h2><Link to="/about">About Me</Link></h2>
             <h2><Link to="/portfolio">Portfolio</Link></h2>
-            <h2><Link to="/contact">Contact</Link></h2>
+            {/*<h2><Link to="/contact">Contact</Link></h2>*/}
         </div>
 	);
 }

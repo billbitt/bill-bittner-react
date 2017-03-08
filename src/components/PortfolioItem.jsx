@@ -4,11 +4,12 @@ import './PortfolioItem.css';
 class PortfolioItem extends Component {
 	
 	render() {
-		return <div className="card">
-			<div className="caption">
-				<h3>{this.props.title}</h3>	
-			</div>
-			<div>
+		return <div>
+			
+			<div className="card">
+				<div className="caption">
+					<h2>{this.props.title}</h2>	
+				</div>
 				<img className="portfolio-image" src={this.props.imgSource} alt={this.props.title}/>
 				<p className="description details" >{this.props.description}</p>
 				<div className="details">
@@ -37,7 +38,6 @@ class PortfolioItem extends Component {
 							);
 						})}
 					</ul>
-					
 				</div>
 			</div>
 		</div>;

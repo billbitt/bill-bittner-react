@@ -1,3 +1,19 @@
 
+.heading-text {
+    padding: 40px 20px 0px 20px;
+}
 
+.detail-text {
+    padding: 0px 20px 30px 20px;
+}
+
+.about-me p, .about-me a {
+    text-align: left;
+    font-weight: normal;
+    color: #999;
+}
+
+.about-me a:hover {
+    color: yellow;
+}
 

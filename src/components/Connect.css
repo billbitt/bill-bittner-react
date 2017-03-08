@@ -1,4 +1,9 @@
 
+.connect-links {
+    float: right;
+    overflow: auto;
+}
+
 .connect-link {
     float: right;
     text-align: center;
