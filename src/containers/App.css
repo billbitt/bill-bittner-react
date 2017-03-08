@@ -1,28 +1,105 @@
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-
-.App {
-  text-align: center;
+#app {
+  height: 100%;
   min-height:100%;
-  position:relative;
+  width: 100%;
 }
 
-.App-content {
-  font-style: bold;
+.side-bar {
+  float: left;
+  margin: 30px 0px 0px 30px;
 }
 
-.Main {
-   padding:10px;
-   padding-bottom:200px;   /* Height of the footer */
+.main {
+  margin: 30px 30px 30px 60px;
+  width: 800px;
+  text-align: left;
+  float: left;
 }
 
-footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
+h2 {
+    color: white;
+    margin-top: 0px;
+}
+
+.navigation {
+  margin-top: 30px;
+}
+
+/*drop shadows*/
+
+.logo  {
+  box-shadow: 5px 5px 10px orangered;
+}
+
+/*card styles*/
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+    text-align: left;
+    color: #999;
+}
+
+.card a {
+  font-weight: bold;
+  color: deepskyblue;
+}
+
+.card a:hover {
+    color: skyblue;
+}
+
+.card h2 {
+    color: darkorange;
+    text-align: right;
+    text-shadow: none;
+    margin: 0px;
+}
+
+.card h4 {
+    color: darkorange;
+    text-align: left;
+    text-shadow: none;
+    margin: 0px;
+}
+
+
+/*media queries*/
+
+@media (max-width: 1150px) {
+
+  /*stack sidebar and main */
+  .side-bar, .main {
+      float: none;
+      overflow: auto;
+      width: 80%;
+      margin: 30px 10% 0px 10%;
+  }
+
+  /*align nav to right of logo */
+  .logo {
+      float: left;
+  }
+
+  .navigation {
+    float: right;
+    text-align: right;
+  }
+
+  .main {
+    float: none;
+  }
+
+
+}
+
+@media (max-width: 475px) {
+
+  /*stack the logo and nav*/
+
+
 }
