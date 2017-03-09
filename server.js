@@ -7,7 +7,7 @@ app.use(express.static("./build"));
 
 // catch all route 
 app.get("*", function(req, res){
-    console.log("routing to ./build/index.html")
+    console.log("routing to ./build/index.html");
     res.sendFile(path.join(__dirname, "./build", "index.html"));
 });
 

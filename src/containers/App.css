@@ -102,14 +102,24 @@ h2 {
 
 @media (max-width: 475px) {
 
-  /*stack the logo and nav*/
+  /*align nav links side by side*/
   .navigation {
     width: 100%;
   }
 
   .navigation h2 {
     float: left;
+    margin: 0px;
     padding-right: 30px;
+
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .navigation h2 {
+    font-size: 150%;
   }
 
 }
