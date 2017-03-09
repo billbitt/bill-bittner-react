@@ -103,6 +103,13 @@ h2 {
 @media (max-width: 475px) {
 
   /*stack the logo and nav*/
+  .navigation {
+    width: 100%;
+  }
 
+  .navigation h2 {
+    float: left;
+    padding-right: 30px;
+  }
 
 }

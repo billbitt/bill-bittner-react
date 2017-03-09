@@ -22,7 +22,7 @@ const PORTFOLIO_ITEMS = [
 		description: "The Book Tracker is an application I built to help me track the books I want to read.",
 		highlights: ["Wrote front end using HTML, Handlebars.js, CSS and JavaScript", "Wrote the backend of the application using Express.js, MySQL, and MVC structure", "Wrote my own ORM to communicate between my model and databse"],
 		resources: ["Google Books API", "Express.js", "Method-override.js", "Handlebars.js", "MySQL", "jQuery", "Google Fonts"],
-		links: [{title: "live application", link: ""}, {title: "github", link: "https://github.com/billbitt/book-tracker"}],
+		links: [{title: "github", link: "https://github.com/billbitt/book-tracker"}],
 	}
 ];
 
