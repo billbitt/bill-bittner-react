@@ -30,7 +30,6 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<div className="portfolio">
-				<h2>Portfolio</h2>
 				{PORTFOLIO_ITEMS.map((item, index) => {
 					return < PortfolioItem key={index} title={item.title} imgSource={item.img} screenshots={item.screenshots} description={item.description} highlights={item.highlights} resources={item.resources} links={item.links} />
 				})}
