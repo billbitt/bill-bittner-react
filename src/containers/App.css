@@ -23,13 +23,14 @@ h2 {
 
 .navigation {
   margin-top: 30px;
+  text-align: right;
 }
 
 /*drop shadows*/
 
-.logo  {
+/*.logo  {
   box-shadow: 5px 5px 10px orangered;
-}
+}*/
 
 /*card styles*/
 
@@ -37,6 +38,8 @@ h2 {
   background-color: white;
   padding: 30px;
   margin-bottom: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .card {
@@ -55,7 +58,7 @@ h2 {
 
 .card h2 {
     color: darkorange;
-    text-align: right;
+    text-align: left;
     text-shadow: none;
     margin: 0px;
 }

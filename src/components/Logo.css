@@ -8,6 +8,8 @@
     height: 200px;
     text-align: left;
     padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 h1 {
