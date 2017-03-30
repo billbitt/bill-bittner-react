@@ -6,12 +6,13 @@
 
 .side-bar {
   float: left;
-  margin: 30px 0px 0px 30px;
+  margin: 30px 0px 0px 10%;
+  width: 30% 0px 0px 0px
 }
 
 .main {
-  margin: 30px 30px 30px 60px;
-  width: 800px;
+  margin: 30px 5% 30px 5%;
+  width: 60%;
   text-align: left;
   float: left;
 }
@@ -38,13 +39,11 @@ h2 {
   background-color: white;
   padding: 30px;
   margin-bottom: 30px;
+  text-align: left;
+  color: #999;
+  overflow:auto;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-}
-
-.card {
-    text-align: left;
-    color: #999;
 }
 
 .card a {
@@ -57,17 +56,18 @@ h2 {
 }
 
 .card h2 {
-    color: darkorange;
-    text-align: left;
-    text-shadow: none;
-    margin: 0px;
+
+  color: darkorange;
+  text-align: right;
+  text-shadow: none;
+  margin: 0px;
 }
 
 .card h4 {
-    color: darkorange;
-    text-align: left;
-    text-shadow: none;
-    margin: 0px;
+  color: darkorange;
+  text-align: left;
+  text-shadow: none;
+  margin: 0px;
 }
 
 
@@ -77,15 +77,15 @@ h2 {
 
   /*stack sidebar and main */
   .side-bar, .main {
-      float: none;
-      overflow: auto;
-      width: 80%;
-      margin: 30px 10% 0px 10%;
+    float: none;
+    overflow: auto;
+    width: 80%;
+    margin: 30px 10% 0px 10%;
   }
 
   /*align nav to right of logo */
   .logo {
-      float: left;
+    float: left;
   }
 
   .navigation {
