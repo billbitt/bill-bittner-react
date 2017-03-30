@@ -6,12 +6,13 @@
 
 .side-bar {
   float: left;
-  margin: 30px 0px 0px 30px;
+  margin: 30px 0px 0px 10%;
+  width: 30% 0px 0px 0px
 }
 
 .main {
-  margin: 30px 30px 30px 60px;
-  width: 800px;
+  margin: 30px 5% 30px 5%;
+  width: 60%;
   text-align: left;
   float: left;
 }
