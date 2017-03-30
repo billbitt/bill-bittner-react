@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PortfolioItem from './PortfolioItem';
 import "./Portfolio.css";
 
-import LetsHackLogoUrl from "./letsHackLogo.png";
-import BookTrackerLogoUrl from "./bookTrackerLogo.png";
-import GuestmateUrl from "./guestmateLogo.png";
+import LetsHackLogoUrl from "../assets/letsHackLogo.png";
+import BookTrackerLogoUrl from "../assets/bookTrackerLogo.png";
+import GuestmateUrl from "../assets/guestmateLogo.png";
 
 const PORTFOLIO_ITEMS = [
 	{
