@@ -4,6 +4,18 @@
     margin-top: 30px;
 }
 
+.connect-links {
+    float: right;
+    overflow: auto;
+}
+
+.connect-link {
+    float: right;
+    text-align: center;
+    padding: 20px;
+    background-color: #888;
+}
+
 @media (max-width: 1150px) {
 
     .about-me, .connect {
@@ -12,7 +24,19 @@
         padding: 0px;
     }
 
-
-
 }
 
+@media (max-width: 550px) {
+
+    .connect-links {
+        width: 100%;
+    }
+
+    .connect-link {
+        width: 25%;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: small;
+    }
+
+}

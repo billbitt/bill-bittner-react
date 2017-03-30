@@ -24,13 +24,14 @@ h2 {
 
 .navigation {
   margin-top: 30px;
+  text-align: right;
 }
 
 /*drop shadows*/
 
-.logo  {
+/*.logo  {
   box-shadow: 5px 5px 10px orangered;
-}
+}*/
 
 /*card styles*/
 
@@ -41,6 +42,8 @@ h2 {
   text-align: left;
   color: #999;
   overflow:auto;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .card a {
@@ -53,6 +56,7 @@ h2 {
 }
 
 .card h2 {
+
   color: darkorange;
   text-align: right;
   text-shadow: none;
@@ -98,7 +102,24 @@ h2 {
 
 @media (max-width: 475px) {
 
-  /*stack the logo and nav*/
+  /*align nav links side by side*/
+  .navigation {
+    width: 100%;
+  }
 
+  .navigation h2 {
+    float: left;
+    margin: 0px;
+    padding-right: 30px;
+
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .navigation h2 {
+    font-size: 150%;
+  }
 
 }

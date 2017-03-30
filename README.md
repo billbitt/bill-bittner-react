@@ -1,2 +1,2 @@
 # bill-bittner-react
-A personal portfolio site built in React
+This is my personal website site, which I built using React.js

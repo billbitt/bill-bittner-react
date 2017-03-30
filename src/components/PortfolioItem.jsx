@@ -7,11 +7,11 @@ class PortfolioItem extends Component {
 		return <div>
 			
 			<div className="card">
-				<div className="caption">
-					<h2>{this.props.title}</h2>	
-				</div>
+				<h2>{this.props.title}</h2>	
 				<img className="portfolio-image" src={this.props.imgSource} alt={this.props.title}/>
-				<p className="description details" >{this.props.description}</p>
+				<div className="description">
+					<p>{this.props.description}</p>
+				</div>
 				<div className="details">
 
 					<h4>Project Highlights</h4>
