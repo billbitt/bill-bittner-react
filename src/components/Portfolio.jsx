@@ -13,7 +13,7 @@ const PORTFOLIO_ITEMS = [
 		description: "Guestmate is the premiere cloud-based guest-list solution for concert venues. In this modern age, concert venues still rely on pen or pencil, crumpled napkins, and hand written notes to compile the guest lists for their events.  This requires a lot of leg work to coordinate, and often results in names being left off or recorded incorrectly on the list.  Guestmate is a web-based guest list application that provides a reliable, accurate, real-time alternative to the antiquated pen and paper method.",
 		highlights: ["I wrote the application's front end using React for the view and Redux for application-level state.", "I develped a back end using Express for the server and Mongoose ORM and mongoDB for data storage."],
 		resources: ["CSS", "materialize", "passport", "passport-local", "react", "react-router", "redux", "express", "body-parser", "mongoose", "mongoDB", "passport"],
-		links: [{title: "live application", link: "https://pacific-mountain-48488.herokuapp.com/"}, {title: "application overview (ppt)", link: "https://docs.google.com/presentation/d/16AuuNiVx-6C_qLy8eopBgdTxHk44lBssERGpnRnCYJc/edit?usp=sharing"}, {title: "github", link: "https://github.com/billbitt/guest-list/"}],
+		links: [{title: "live application", link: "http://www.guestmate.io"}, {title: "application overview (ppt)", link: "https://docs.google.com/presentation/d/16AuuNiVx-6C_qLy8eopBgdTxHk44lBssERGpnRnCYJc/edit?usp=sharing"}, {title: "github", link: "https://github.com/billbitt/guest-list/"}],
 	},
 	{
 		title: "letsHack",
