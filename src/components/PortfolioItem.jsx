@@ -37,7 +37,7 @@ class PortfolioItem extends Component {
 					<ul>
 						{this.props.links.map((item, index) => {
 							return (
-								<li key={index}><a className="link-item" href={item.link} key={index}>{item.title}</a></li>
+								<li key={index}><a className="link-item" target="_blank" href={item.link} key={index}>{item.title}</a></li>
 							);
 						})}
 					</ul>
