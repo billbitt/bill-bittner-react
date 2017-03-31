@@ -16,7 +16,7 @@ export default function() {
                                         <a target="_blank" href="https://github.com/billbitt">github</a>
                                 </div>
                                 <div className="connect-link">
-                                        <a target="_blank" href="https://www.linkedin.com/in/bill-bittner-b1b48b4b/">linkedIn</a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/bill-bitt/">linkedIn</a>
                                 </div>
                         </div>
                 </div>

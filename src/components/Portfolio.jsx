@@ -5,6 +5,8 @@ import "./Portfolio.css";
 import LetsHackLogoUrl from "../assets/letsHackLogo.png";
 import BookTrackerLogoUrl from "../assets/bookTrackerLogo.png";
 import GuestmateUrl from "../assets/guestmateLogo.png";
+import BillBittDynamicUrl from "../assets/bill-bitt-dynamic.png";
+import BillBittReactUrl from "../assets/bill-bitt-react.png";
 
 const PORTFOLIO_ITEMS = [
 	{
@@ -30,7 +32,23 @@ const PORTFOLIO_ITEMS = [
 		highlights: ["Wrote front end using HTML, Handlebars.js, CSS and JavaScript", "Wrote the backend of the application using Express.js, MySQL, and MVC structure", "Wrote my own ORM to communicate between my model and databse"],
 		resources: ["Google Books API", "Express.js", "Method-override.js", "Handlebars.js", "MySQL", "jQuery", "Google Fonts"],
 		links: [{title: "github", link: "https://github.com/billbitt/book-tracker"}],
-	}
+	},
+	{
+		title: "HTML/CSS-Based Personal Portfolio",
+		img: BillBittDynamicUrl,
+		description: "In this project, I took my basic HTML/CSS portfolio and added responsive media queries. My goal with this project was to practice creating a site for a client based on their exact design, and to get it pixel perfect",
+		highlights: ["Recreated client's design in pixel-perfect detail using HTML and CSS", "Utilized CSS media queries to adjust the site layout based on user screen size"],
+		resources: ["HTML", "CSS", "media queries", "heroku"],
+		links: [{title: "live application", link: "https://bill-responsive-portfolio.herokuapp.com/"}, {title: "github (Check this out for pictures of the design I was recreating)", link: "https://github.com/billbitt/responsive-portfolio"}],
+	},
+	{
+		title: "React-based Personal Portfolio",
+		img: BillBittReactUrl,
+		description: "This is the site you are currently viewing!  For this project, I wanted to create a simple portfolio that quickly and elegantly showed visitors who I am and what projects I am workign on.  I used React and Express, with a bit of CSS to bring it all together.",
+		highlights: ["React and Express to serve the site and its content", "CSS to style the content", "CSS media queries to display the content in different forms depending on the user's device and screen size"],
+		resources: ["React", "CSS", "CSS media queries", "Express.js"],
+		links: [{title: "live application", link: "http://www.billbittner.info/"}, {title: "github", link: "https://github.com/billbitt/bill-bittner-react"}],
+	},
 ];
 
 class Portfolio extends Component {
