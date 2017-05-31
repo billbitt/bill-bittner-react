@@ -5,10 +5,19 @@ import "./Portfolio.css";
 import LetsHackLogoUrl from "../assets/letsHackLogo.png";
 import BookTrackerLogoUrl from "../assets/bookTrackerLogo.png";
 import GuestmateUrl from "../assets/guestmateLogo.png";
+import LbryUrl from "../assets/lbryLogo.png";
 import BillBittDynamicUrl from "../assets/bill-bitt-dynamic.png";
 import BillBittReactUrl from "../assets/bill-bitt-react.png";
 
 const PORTFOLIO_ITEMS = [
+	{
+		title: "Spee.ch",
+		img: LbryURL,
+		description: "Two of my favorite things are utility-based web apps and blockchain technologies.  I became interested in the LBRY blockchain in early 2017 after diving into Bitcoin and Ethereum, and I quickly joined their amazing community of open-source contributors.  Today, I am working hand-in-and with the LBRY team to head up development of Spee.ch, which is a single-serving site that reads and publishes images to and from the LBRY blockchain.  I love getting to contibute to a project with such wide-reaching impact and it has been a tremendous opportunity to learn about efficiently serving content across the internet.",
+		highlights: ["Full-stack application architecture", "Utilizing message queues and background processing", "Developing scalable hosted solutions"],
+		resources: ["HTML", "CSS", "express.js", "socket.io", "amazon web services", "rabbitMQ"],
+		links: [{title: "live application", link: "https://spee.ch"}, {title: "github", link: "https://github.com/billbitt/spee.ch"}],
+	},
 	{
 		title: "Guestmate",
 		img: GuestmateUrl,
